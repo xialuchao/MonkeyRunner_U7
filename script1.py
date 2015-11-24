@@ -1013,15 +1013,21 @@ def scripta(Test_Count):
 	print 'Enter the File Manager'
 	dev.device.touch(613,310,'DOWN_AND_UP')#click phone storage
 	MonkeyRunner.sleep(2)
-	dev.device.touch(355,1069,'DOWN_AND_UP')#click the six -->dcim
+	dev.device.touch(355,912,'DOWN_AND_UP')#click the five -->dcmi###six (355,1069)
 	MonkeyRunner.sleep(1)
-	dev.device.touch(510,458,'DOWN_AND_UP')#click camera -->
+	dev.device.touch(510,458,'DOWN_AND_UP')#click camera
 	MonkeyRunner.sleep(1)
 	dev.device.drag((598,316),(598,316),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.touch(362,150,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(388,297,'DOWN_AND_UP')
+	MonkeyRunner.sleep(1)
+	dev.device.drag((602,1325),(602,269),2,10)
+	MonkeyRunner.sleep(1)
+	dev.device.drag((602,1325),(602,269),2,10)
+	MonkeyRunner.sleep(1)
+	dev.device.drag((602,1325),(602,269),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.drag((602,1325),(602,269),2,10)
 	MonkeyRunner.sleep(1)
@@ -1102,7 +1108,7 @@ def scripta(Test_Count):
 
 	dev.device.touch(672,313,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.type('10086')  #type testing number
+	dev.device.type('10010')  #type testing number
 	MonkeyRunner.sleep(1)
 	print 'Add Contact 2'
 	MonkeyRunner.sleep(1)
@@ -1113,8 +1119,9 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
-	MonkeyRunner.sleep(1)
-	dev.device.touch(390,1383,'DOWN_AND_UP')
+	MonkeyRunner.sleep(2)
+	dev.device.touch(775,157,'DOWN_AND_UP')#click insert quick text
+	# dev.device.touch(390,1383,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(516,386,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1123,7 +1130,8 @@ def scripta(Test_Count):
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(390,1560,'DOWN_AND_UP')
+	dev.device.touch(730,300,'DOWN_AND_UP')
+	# dev.device.touch(390,1560,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(366,336,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1172,7 +1180,7 @@ def scripta(Test_Count):
 	#dev.device.touch(201,420,'DOWN_AND_UP')
 	#MonkeyRunner.sleep(1)
 	#print 'Chat Wallpaper'
-	MonkeyRunner.sleep(1)
+	#MonkeyRunner.sleep(1)
 	#dev.device.touch(961,685,'DOWN_AND_UP')
 	#MonkeyRunner.sleep(1)
 	#dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
