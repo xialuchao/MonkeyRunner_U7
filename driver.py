@@ -1,7 +1,7 @@
 #coding = utf-8
 __author__ = 'shylock'
 import sys
-sys.path.append('E:\\testing\\script_total')
+sys.path.append('E:\\testing\\MonkeyRunner_U7')
 import time
 import os
 from config import dev
@@ -20,8 +20,8 @@ if __name__ == '__main__':
     while Test_Count < TestTimes:
         print "------Test is Beginning! TestTimes:%d------" %Test_Count
         print (time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(time.time())))
-        # script1.scripta(Test_Count)
-        # script2.scriptb(Test_Count)
+        script1.scripta(Test_Count)
+        script2.scriptb(Test_Count)
         dev.device.drag((886,0),(886,1800),1,10)
         MonkeyRunner.sleep(1)
         dev.device.drag((886,1600),(886,800),1,10)
