@@ -19,11 +19,10 @@
 17.除了照相机以外的照片
 18.使用一次讯飞输入法
 19.输入法修改为google keypad
-20.在filemanager中新建CIT文件夹
-21.开启MTKlog
-22.Batterylog点开菜单再退出即可
+20.开启MTKlog
+21.Batterylog点开菜单再退出即可
                            0. SMS脚本内手机号修改未当前测试号
-
+                           0.在filemanager中新建CIT文件夹
 
 
 
@@ -38,7 +37,21 @@
 在图库删除照片的时候，因为坐标问题，仍需要开启BATTERLOG
 但是图库仍在第五个。而不是第六个
 #######
-20151124
-在预置条件中，添加新建文件夹CIT，为了使DCIM在第六个
+20151125
+DCIM放在第五个，不新建CIT文件夹
+filemanager的顺序：
+Alarms
+Android
+assist
+batterylog
+DCIM
+Download
+iFlyIME
+LOST.DIR
+mtklog
+Music
+Padcasts
+Recording
+Ringtones
 
 

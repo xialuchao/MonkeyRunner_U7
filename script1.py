@@ -1,5 +1,4 @@
 #coding = utf-8
-__author__ = 'shylock'
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
 from config import dev
 
@@ -1011,23 +1010,17 @@ def scripta(Test_Count):
 	dev.device.touch(413,1029,'DOWN_AND_UP')
 	MonkeyRunner.sleep(2)
 	print 'Enter the File Manager'
-	dev.device.touch(613,310,'DOWN_AND_UP')#click phone storage
+	dev.device.touch(613,310,'DOWN_AND_UP')
 	MonkeyRunner.sleep(2)
-	dev.device.touch(355,912,'DOWN_AND_UP')#click the five -->dcmi###six (355,1069)
+	dev.device.touch(388,905,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(510,458,'DOWN_AND_UP')#click camera
+	dev.device.touch(510,458,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.drag((598,316),(598,316),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.touch(362,150,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(388,297,'DOWN_AND_UP')
-	MonkeyRunner.sleep(1)
-	dev.device.drag((602,1325),(602,269),2,10)
-	MonkeyRunner.sleep(1)
-	dev.device.drag((602,1325),(602,269),2,10)
-	MonkeyRunner.sleep(1)
-	dev.device.drag((602,1325),(602,269),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.drag((602,1325),(602,269),2,10)
 	MonkeyRunner.sleep(1)
@@ -1119,9 +1112,8 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
-	MonkeyRunner.sleep(2)
-	dev.device.touch(775,157,'DOWN_AND_UP')#click insert quick text
-	# dev.device.touch(390,1383,'DOWN_AND_UP')
+	MonkeyRunner.sleep(1)
+	dev.device.touch(751,157,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(516,386,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1130,8 +1122,7 @@ def scripta(Test_Count):
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(730,300,'DOWN_AND_UP')
-	# dev.device.touch(390,1560,'DOWN_AND_UP')
+	dev.device.touch(779,299,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(366,336,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1180,7 +1171,7 @@ def scripta(Test_Count):
 	#dev.device.touch(201,420,'DOWN_AND_UP')
 	#MonkeyRunner.sleep(1)
 	#print 'Chat Wallpaper'
-	#MonkeyRunner.sleep(1)
+	MonkeyRunner.sleep(1)
 	#dev.device.touch(961,685,'DOWN_AND_UP')
 	#MonkeyRunner.sleep(1)
 	#dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
@@ -1296,7 +1287,7 @@ def scripta(Test_Count):
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(390,1383,'DOWN_AND_UP')
+	dev.device.touch(765,166,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(516,386,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1305,7 +1296,7 @@ def scripta(Test_Count):
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(390,1560,'DOWN_AND_UP')
+	dev.device.touch(771,301,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(366,336,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1316,7 +1307,7 @@ def scripta(Test_Count):
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(596,1696,'DOWN_AND_UP')
+	dev.device.touch(803,430,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	print 'Add Subject'
 	MonkeyRunner.sleep(2)
@@ -1324,7 +1315,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.type('NewMessage' + str(Test_Count))
 	MonkeyRunner.sleep(2)
-	dev.device.touch(329,1122,'DOWN_AND_UP')
+	dev.device.touch(682,1112,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.type('Content' + str(Test_Count))
 	MonkeyRunner.sleep(2)
@@ -1347,9 +1338,9 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.touch(672,313,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.type('10010')
+	dev.device.type('10010')#type testing number
 	MonkeyRunner.sleep(1)
-	print 'Add Contact 18621058052'
+	print 'Add Contact 10010'
 	MonkeyRunner.sleep(1)
 	dev.device.touch(63,1131,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1415,7 +1406,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.type('10010')
 	MonkeyRunner.sleep(1)
-	print 'Add Contact 18621058052'
+	print 'Add Contact 10010'
 	MonkeyRunner.sleep(1)
 	dev.device.touch(63,1131,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1457,7 +1448,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.type('10010')
 	MonkeyRunner.sleep(1)
-	print 'Add Contact 18621058052'
+	print 'Add Contact 10010'
 	MonkeyRunner.sleep(1)
 	dev.device.touch(63,1131,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1501,7 +1492,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.type('10010')
 	MonkeyRunner.sleep(1)
-	print 'Add Contact 18621058052'
+	print 'Add Contact 10010'
 	MonkeyRunner.sleep(1)
 	dev.device.touch(63,1131,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1536,7 +1527,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.type('10010')
 	MonkeyRunner.sleep(2)
-	dev.device.touch(922,1160,'DOWN_AND_UP')
+	dev.device.touch(1016,1178,'DOWN_AND_UP')
 	MonkeyRunner.sleep(8)
 
 	#Case 7
@@ -1552,8 +1543,8 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 
 	#Case 8
-	dev.device.touch(616,353,'DOWN_AND_UP')
-	MonkeyRunner.sleep(2)
+	#dev.device.touch(616,353,'DOWN_AND_UP')
+	#MonkeyRunner.sleep(2)
 	dev.device.drag((793,1629),(793,1629),2,10)
 	MonkeyRunner.sleep(2)
 	dev.device.touch(519,1280,'DOWN_AND_UP')
@@ -1570,7 +1561,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(2)
 
 
-    ########################gallery#####################
+########################gallery#####################
 	dev.device.touch(658,1025,'DOWN_AND_UP')#destop
 	MonkeyRunner.sleep(2)
 
@@ -1601,7 +1592,8 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(512,1581,'DOWN_AND_UP')#select slide show
+	dev.device.touch(773,169,'DOWN_AND_UP')#select slide show
+	# dev.device.touch(512,1581,'DOWN_AND_UP')#select slide show
 	MonkeyRunner.sleep(1)
 	print 'Slide Show'
 	MonkeyRunner.sleep(10)
@@ -1611,7 +1603,8 @@ def scripta(Test_Count):
 	#Case 3
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(285,1700,'DOWN_AND_UP')#select item
+	dev.device.touch(773,311,'DOWN_AND_UP')#select item
+	# dev.device.touch(285,1700,'DOWN_AND_UP')#select item
 	MonkeyRunner.sleep(1)
 	print 'Select Item'
 	MonkeyRunner.sleep(1)
@@ -1621,15 +1614,20 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.touch(725,172,'DOWN_AND_UP')#click BT
 	MonkeyRunner.sleep(1)
-	print 'Shared via Bluetooth'
+	print 'Shared via Message'
 	MonkeyRunner.sleep(5)
 	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
-	MonkeyRunner.sleep(1)
+	MonkeyRunner.sleep(2)
+	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	MonkeyRunner.sleep(2)
+	dev.device.touch(872,1164,'DOWN_AND_UP')
+	MonkeyRunner.sleep(2)
 
 	#Case 4
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(285,1700,'DOWN_AND_UP')#select item
+	dev.device.touch(773,311,'DOWN_AND_UP')#select item
+	# dev.device.touch(285,1700,'DOWN_AND_UP')#select item
 	MonkeyRunner.sleep(1)
 	print 'Select Item'
 	MonkeyRunner.sleep(1)
@@ -1641,23 +1639,20 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.touch(639,280,'DOWN_AND_UP')#click message
 	MonkeyRunner.sleep(1)
-	print 'Shared via Message'
+	print 'Shared via Bluetooth'
 	MonkeyRunner.sleep(5)
 	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
-	MonkeyRunner.sleep(2)
-	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
-	MonkeyRunner.sleep(2)
-	dev.device.touch(872,1164,'DOWN_AND_UP')
-	MonkeyRunner.sleep(2)
+	MonkeyRunner.sleep(1)
 
 	#Case 6
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(285,1700,'DOWN_AND_UP')
+	dev.device.touch(773,311,'DOWN_AND_UP')#select item
+	# dev.device.touch(285,1700,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	print 'Select Item'
 	MonkeyRunner.sleep(1)
-	dev.device.touch(158,357,'DOWN_AND_UP')
+	dev.device.touch(158,357,'DOWN_AND_UP')#click menu
 	MonkeyRunner.sleep(1)
 	dev.device.touch(1020,169,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1668,7 +1663,8 @@ def scripta(Test_Count):
 
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(285,1700,'DOWN_AND_UP')
+	dev.device.touch(773,311,'DOWN_AND_UP')#select item
+	# dev.device.touch(285,1700,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	print 'Select Item'
 	MonkeyRunner.sleep(1)
@@ -1695,17 +1691,18 @@ def scripta(Test_Count):
 	#case 7
 	dev.device.touch(658,1025,'DOWN_AND_UP')#destop
 	MonkeyRunner.sleep(2)
-	dev.device.touch(168,166,'DOWN_AND_UP')#left up
-	MonkeyRunner.sleep(1)
-	dev.device.touch(162,300,'DOWN_AND_UP')#location
-	MonkeyRunner.sleep(2)
+	# dev.device.touch(168,166,'DOWN_AND_UP')#left up
+	# MonkeyRunner.sleep(1)
+	# dev.device.touch(162,300,'DOWN_AND_UP')#location
+	# MonkeyRunner.sleep(2)
 	dev.device.touch(269,697,'DOWN_AND_UP')#camera folder
 	MonkeyRunner.sleep(3)
-	dev.device.touch(196,452,'DOWN_AND_UP')#Choose the first location pic
+	dev.device.touch(550,1080,'DOWN_AND_UP')#Choose the only camera pic
 	MonkeyRunner.sleep(3)
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(306,988,'DOWN_AND_UP')#select edit
+	dev.device.touch(800,455,'DOWN_AND_UP')#select edit
+	# dev.device.touch(306,988,'DOWN_AND_UP')#select edit
 	MonkeyRunner.sleep(1)
 	print 'Edit'
 	MonkeyRunner.sleep(1)
@@ -1717,7 +1714,8 @@ def scripta(Test_Count):
 	#case 8
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(317,1408,'DOWN_AND_UP')
+	dev.device.touch(800,876,'DOWN_AND_UP')#crop
+	# dev.device.touch(317,1408,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	print 'Crop'
 	MonkeyRunner.sleep(1)
@@ -1726,12 +1724,59 @@ def scripta(Test_Count):
 	dev.device.touch(223,157,'DOWN_AND_UP')#click save
 	MonkeyRunner.sleep(4)
 
-
-
+	# #Case 7
+	# dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(1)
+	# dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(2)
+	# dev.device.touch(658,1025,'DOWN_AND_UP')#destop
+	# MonkeyRunner.sleep(2)
+	# dev.device.touch(849,978,'DOWN_AND_UP')#camera folder
+	# MonkeyRunner.sleep(3)
+	# dev.device.touch(540,1080,'DOWN_AND_UP')#select the only one pic
+	# MonkeyRunner.sleep(3)
+	# dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(1)
+	# dev.device.touch(306,988,'DOWN_AND_UP')#select edit
+	# MonkeyRunner.sleep(1)
+	# print 'Edit'
+	# MonkeyRunner.sleep(1)
+	# dev.device.touch(303,1639,'DOWN_AND_UP')#choose punch
+	# MonkeyRunner.sleep(2)
+	# dev.device.touch(178,148,'DOWN_AND_UP')#click save
+	# MonkeyRunner.sleep(4)
+	# dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(1)
+	# dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(2)
+	# dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(2)
+	#
+	# #Case 8
+	# dev.device.touch(658,1025,'DOWN_AND_UP')#destop
+	# MonkeyRunner.sleep(2)
+	# dev.device.touch(260,730,'DOWN_AND_UP')#camera folder
+	# MonkeyRunner.sleep(3)
+	# dev.device.touch(540,1080,'DOWN_AND_UP')#select the only one pic
+	# MonkeyRunner.sleep(3)
+	# dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(1)
+	# dev.device.touch(317,1408,'DOWN_AND_UP')
+	# MonkeyRunner.sleep(1)
+	# print 'Crop'
+	# MonkeyRunner.sleep(1)
+	# dev.device.drag((528,1900),(528,1840),1,10)
+	# MonkeyRunner.sleep(2)
+	# dev.device.touch(223,157,'DOWN_AND_UP')#click save
+	# MonkeyRunner.sleep(4)
+	#
 	#Case 5
+	dev.device.touch(580,800,'DOWN_AND_UP')
+	MonkeyRunner.sleep(1)
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(511,688,'DOWN_AND_UP')#click delete
+	dev.device.touch(800,169,'DOWN_AND_UP')#click delete
+	# dev.device.touch(511,688,'DOWN_AND_UP')#click delete
 	MonkeyRunner.sleep(1)
 	dev.device.touch(895,1072,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1741,21 +1786,8 @@ def scripta(Test_Count):
 	#Case 9
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.touch(350,1568,'DOWN_AND_UP')
-	MonkeyRunner.sleep(1)
-	dev.device.touch(372,1836,'DOWN_AND_UP')
-	MonkeyRunner.sleep(1)
-	print 'Set Picture as Wallpaper'
-	MonkeyRunner.sleep(1)
-	dev.device.touch(179,117,'DOWN_AND_UP')
-	MonkeyRunner.sleep(3)
-
-	#Case 10
-
-	MonkeyRunner.sleep(1)
-	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
-	MonkeyRunner.sleep(1)
-	dev.device.touch(350,1568,'DOWN_AND_UP')#click pic as
+	# dev.device.touch(350,1568,'DOWN_AND_UP')
+	dev.device.touch(800,1020,'DOWN_AND_UP')#click set Picture as
 	MonkeyRunner.sleep(1)
 	dev.device.touch(393,1850,'DOWN_AND_UP')#click contacts
 	MonkeyRunner.sleep(2)
@@ -1765,15 +1797,39 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.touch(210,148,'DOWN_AND_UP')#click save
 	MonkeyRunner.sleep(1)
+
+
+
+	# dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	# MonkeyRunner.sleep(3)
+
+	#Case 10
+	# dev.device.touch(170,803,'DOWN')
+	# dev.device.touch(170,803,'UP')
+	MonkeyRunner.sleep(1)
+	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
+	MonkeyRunner.sleep(1)
+	dev.device.touch(800,1020,'DOWN_AND_UP')#click set Picture as
+	# dev.device.touch(350,1568,'DOWN_AND_UP')#click pic as
+	MonkeyRunner.sleep(1)
+	dev.device.touch(372,1655,'DOWN_AND_UP')
+	MonkeyRunner.sleep(1)
+	print 'Set Picture as Wallpaper'
+	MonkeyRunner.sleep(1)
+	dev.device.touch(179,117,'DOWN_AND_UP')
+	MonkeyRunner.sleep(3)
 	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 
+	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	MonkeyRunner.sleep(1)
+	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	MonkeyRunner.sleep(1)
 	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 
 	dev.device.press('KEYCODE_HOME','DOWN_AND_UP')
 	MonkeyRunner.sleep(2)
-
 
 	################################################File Manager#####################################################
 	dev.device.touch(413,1029,'DOWN_AND_UP')
@@ -1781,11 +1837,13 @@ def scripta(Test_Count):
 
 	print 'Enter the File Manager'
 
-	dev.device.touch(613,310,'DOWN_AND_UP')
+	dev.device.touch(613,310,'DOWN_AND_UP')#click  phone storage
 	MonkeyRunner.sleep(2)
 
 	#Case 1
-	dev.device.touch(113,1839,'DOWN_AND_UP')
+	dev.device.touch(613,310,'DOWN_AND_UP')#click first
+	MonkeyRunner.sleep(1)
+	dev.device.touch(113,1839,'DOWN_AND_UP')#click add
 	MonkeyRunner.sleep(1)
 	print 'New folder'
 	MonkeyRunner.sleep(1)
@@ -1798,7 +1856,7 @@ def scripta(Test_Count):
 	dev.device.touch(867,807,'DOWN_AND_UP')
 	MonkeyRunner.sleep(2)
 
-	dev.device.drag((290,1100),(290,1100),2,10)
+	dev.device.drag((613,310),(613,310),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.touch(551,1835,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1806,6 +1864,8 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	print 'Delete NewFolder'
 	MonkeyRunner.sleep(1)
+	dev.device.press('KEYCODE_BACK', 'DOWN_AND_UP')
+	MonkeyRunner.sleep(2)
 
 
 
@@ -1831,7 +1891,7 @@ def scripta(Test_Count):
 	#Case 4
 	dev.device.drag((523,468),(523,1733),1,10)
 	MonkeyRunner.sleep(1)
-	dev.device.touch(476,1363,'DOWN_AND_UP')
+	dev.device.touch(256,1213,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(578,300,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1870,7 +1930,7 @@ def scripta(Test_Count):
 	#Case 6
 	dev.device.drag((523,468),(523,1733),1,10)
 	MonkeyRunner.sleep(1)
-	dev.device.drag((215,1073),(215,1073),2,10)
+	dev.device.drag((305,872),(305,872),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.touch(320,1839,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1881,7 +1941,7 @@ def scripta(Test_Count):
 	print 'Paste'
 	MonkeyRunner.sleep(2)
 
-	dev.device.drag((196,1213),(196,1213),2,10)
+	dev.device.drag((275,1062),(275,1062),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.touch(552,1848,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1889,7 +1949,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 
 	#Case 8
-	dev.device.touch(215,1073,'DOWN_AND_UP')
+	dev.device.touch(305,872,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
 	dev.device.touch(208,477,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1923,7 +1983,7 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 
 	#Case 9
-	dev.device.drag((235,1673),(235,1673),2,10)
+	dev.device.drag((288,1669),(288,1669),2,10)
 	MonkeyRunner.sleep(1)
 	dev.device.touch(986,1855,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
@@ -1933,9 +1993,9 @@ def scripta(Test_Count):
 	MonkeyRunner.sleep(1)
 	dev.device.touch(567,643,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
-	dev.device.drag((1010,1607),(1010,1607),2,10)
+	dev.device.drag((1010,1671),(1010,1671),2,10)
 	MonkeyRunner.sleep(1)
-	dev.device.type('Movies'+ str(Test_Count))
+	dev.device.type('Music'+ str(Test_Count))
 	MonkeyRunner.sleep(2)
 	dev.device.touch(876,822,'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
