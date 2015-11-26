@@ -1697,7 +1697,7 @@ def scripta(Test_Count):
 	# MonkeyRunner.sleep(2)
 	dev.device.touch(269,697,'DOWN_AND_UP')#camera folder
 	MonkeyRunner.sleep(3)
-	dev.device.touch(550,1080,'DOWN_AND_UP')#Choose the only camera pic
+	dev.device.touch(580,800,'DOWN_AND_UP')#Choose the only camera pic
 	MonkeyRunner.sleep(3)
 	dev.device.press('KEYCODE_MENU', 'DOWN_AND_UP')
 	MonkeyRunner.sleep(1)
