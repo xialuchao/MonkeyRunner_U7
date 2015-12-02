@@ -1,6 +1,6 @@
 #coding = utf-8
 预置条件
-1.
+1.在MonkeyTest之前务必先设置属性:  adb shell setprop ro.monkeytrue
 2. Camera模块脚本放在文件管理器前面
 3. 蓝牙默认为打开状态
 4.流量开启状态
@@ -16,7 +16,7 @@
 14.SMS设置中Notifications--off popup notification
 15.设置快速拨号键2：10010
 16.用过照相机
-17.除了照相机以外的照片
+17.除了照相机以外的照片(用浏览器下载至少张照片)
 18.使用一次讯飞输入法
 19.输入法修改为google keypad
 20.开启MTKlog
